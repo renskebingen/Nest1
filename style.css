@@ -1,0 +1,224 @@
+@font-face {
+    font-family: superkinds;
+    src: url(fonts/Super\ Kinds.ttf)
+}
+
+@font-face {
+    font-family: comicsans;
+    src: url(fonts/Comic\ Sans\ MS.ttf)
+}
+
+@font-face {
+    font-family: bahnschrift;
+    src: url(fonts/Bahnschrift.ttf)
+}
+
+.homepagina {
+    background-color: rgb(152, 215, 152);
+    background-image: url("images/nestpaal.png");
+    background-repeat: no-repeat;
+    background-size: 23.5em;
+    height: 50em;
+}
+
+.infopagina {
+    background-image: linear-gradient(#b2cc89, #c4c28d);
+    height: 65em;
+}
+
+.dierenpagina {
+    background-image: linear-gradient(#ccd3b2, #acbf8e);
+    height: 47em; 
+}
+
+.waarompagina {
+    background-image: linear-gradient(#afc19a, #a6c96d);
+    height: 63em; 
+}
+
+.homepagina h1 {
+    font-size: 3.5em;
+    font-family: superkinds;
+    color: #5b8c54;
+    -webkit-text-stroke: 0.01em black;
+    margin-top: 3.5em;
+    margin-left: 1.9em;
+}
+
+.infopagina h1 {
+    text-align: center;
+    font-family: comicsans;
+}
+
+.dierenpagina h1 {
+    text-align: center;
+    font-family: comicsans;
+}
+
+.waarompagina h1 {
+    text-align: center;
+    font-family: comicsans;
+}
+
+.pnestpalen {
+    margin-top: 4.2em;
+    margin-left: 3.1em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-family: comicsans;
+    font-weight: bold;
+}
+
+.pintro {
+    margin-top: 0em;
+    margin-right: 4em;
+    margin-bottom: 5em;
+    margin-left: 3.2em;
+    font-family: bahnschrift;
+    font-size: large;
+    font-weight: bold;
+    width: 65%;
+    text-align: center;
+}
+
+.pintro a {
+   color: rgb(46, 69, 46);
+}
+
+.illustratie1 {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+.kaartendieren {
+    display: block;
+    padding-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 23em;
+}
+
+.kaartdieren {
+    display: flex;
+    align-items: center;
+    background-color:#e5ddd1;
+    border: black solid 0.2em;
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.illustratiesdieren {
+    display: block;
+    background-color: #839683;
+    padding: 0.3em;
+    margin: 0.3em;
+    border: 0.2em solid black;
+    border-radius: 10em;
+}
+
+.kaartdierendetails {
+    background-color:#e5ddd1;
+    padding: 0.3em;
+    border-radius: 1em;
+}
+
+.kaartdierendetails h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: comicsans;
+    font-size: medium;
+}
+
+.kaartdierendetails p {
+    margin-top: 0em;
+    font-family: bahnschrift;
+}
+
+.nestpaleninfo {
+    background-color: #e5ddd1;
+    border: black solid 0.2em;
+    border-radius: 0.9em;
+    padding-left: 0.8em;
+    padding-top: 0.2em;
+    padding-right: 0.8em;
+    padding-bottom: 0.2em;
+    font-family: bahnschrift;
+}
+
+.nestpaleninfo a {
+    color: rgb(46, 69, 46);
+}
+
+.kaartenwaarom {
+    display: block;
+    padding-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 23em;
+}
+
+.kaartwaarom {
+    display: flex;
+    align-items: center;
+    background-color:#e5ddd1;
+    border: black solid 0.2em;
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.illustratieswaarom {
+    display: block;
+    background-color: #839683;
+    padding: 0em;
+    margin: 0.3em;
+    border: 0.2em solid black;
+    border-radius: 2em;
+}
+
+.kaartwaaromdetails {
+    background-color:#e5ddd1;
+    padding: 0.3em;
+    border-radius: 1em;
+}
+
+.kaartwaaromdetails h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: comicsans;
+    font-size: medium;
+}
+
+.kaartwaaromdetails p {
+    margin-top: 0em;
+    font-family: bahnschrift;
+}
+
+nav {
+    position: fixed;
+    bottom: 1em;
+    width: 90%;
+    background-color: #e5ddd1;
+    padding: 0.5em;
+    border-radius: 0.9em;
+    border: 0.2em solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: bahnschrift;
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #875530;
+}
